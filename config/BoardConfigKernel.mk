@@ -122,7 +122,7 @@ ifneq ($(KERNEL_NO_GCC), true)
     KERNEL_TOOLCHAIN_PREFIX_arm64 := aarch64-linux-android-
     # arm toolchain
     KERNEL_TOOLCHAIN_arm := $(GCC_PREBUILTS)/arm/arm-linux-androideabi-4.9/bin
-    KERNEL_TOOLCHAIN_PREFIX_arm := arm-linux-androidkernel-
+    KERNEL_TOOLCHAIN_PREFIX_arm := arm-linux-android-
     # x86 toolchain
     KERNEL_TOOLCHAIN_x86 := $(GCC_PREBUILTS)/x86/x86_64-linux-android-4.9/bin
     KERNEL_TOOLCHAIN_PREFIX_x86 := x86_64-linux-android-
