@@ -100,8 +100,10 @@ PRODUCT_PACKAGES += \
     build-manifest
 
 # Pixelage packages
-#PRODUCT_PACKAGES += \
-#    Updater
+ifeq ($(PIXELAGE_BUILDTYPE),OFFICIAL)
+PRODUCT_PACKAGES += \
+    Updater
+endif
 
 PRODUCT_COPY_FILES += \
     vendor/pixelage/prebuilt/common/etc/init/init.pixelage-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.pixelage-updater.rc
