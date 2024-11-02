@@ -227,6 +227,7 @@ PRODUCT_PACKAGE_OVERLAYS += \
     vendor/pixelage/overlay/no-rro
 
 PRODUCT_PACKAGES += \
+    AndroidBlackThemeOverlay \
     CustomPixelLauncherOverlay \
     DocumentsUIOverlay \
     NavigationBarNoHintOverlay \
