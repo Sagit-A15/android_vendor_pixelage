@@ -16,7 +16,7 @@
 # -----------------------------------------------------------------
 # Pixelage OTA update package
 
-PIXELAGE_TARGET_PACKAGE := $(PRODUCT_OUT)/ProjectPixelage-$(PIXELAGE_VERSION).zip
+PIXELAGE_TARGET_PACKAGE := $(PRODUCT_OUT)/$(PIXELAGE_VERSION).zip
 
 SHA256 := prebuilts/build-tools/path/$(HOST_PREBUILT_TAG)/sha256sum
 
