@@ -106,6 +106,10 @@ endif
 PRODUCT_COPY_FILES += \
     vendor/pixelage/prebuilt/common/etc/init/init.pixelage-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.pixelage-updater.rc
 
+# Gamespace
+PRODUCT_PACKAGES += \
+    GameSpace
+
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images \
