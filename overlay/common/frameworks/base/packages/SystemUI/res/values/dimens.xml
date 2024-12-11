@@ -20,4 +20,7 @@
 
     <!-- Remove power menu shadow -->
     <dimen name="global_actions_translate">0dp</dimen>
+
+    <!-- Smartspace -->
+    <dimen name="enhanced_smartspace_height">104.0dip</dimen>
 </resources>
